@@ -1,0 +1,39 @@
+.formTicket {
+  border: 1px solid black;
+  .formHeader {
+    margin: 20px;
+    .title {
+      background-color: black;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .formBody {
+    overflow: auto;
+    height:200px;
+    table {
+      thead {
+        text-align: center;
+        border: transparent;
+      }
+      tbody {
+        tr {
+          td {
+            .removeIcon {
+              display: inline-block;
+              padding: 5px 15px;
+              background-color: red;
+              color: white;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .formFooter {
+    padding: 20px;
+  }
+}
