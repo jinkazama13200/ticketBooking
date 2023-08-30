@@ -13,7 +13,7 @@ export const ticketReducer = (state = [], action) => {
       return state.filter((value) => value.id !== action.payload);
     }
     case "success": {
-      const { totalPrice } = action.payload;
+      const totalPrice = action.currency;
       const randomNumber = Math.floor(Math.random() * 1e3);
       if (state.length > 0) {
         alert(

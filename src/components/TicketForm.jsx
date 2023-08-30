@@ -18,8 +18,7 @@ export default function TicketForm() {
   };
   const handleSuccess = () => {
     const empty = [];
-    const payload = totalPrice;
-    dispatch({ type: "success", payload, empty: empty });
+    dispatch({ type: "success", currency: totalPrice, empty: empty });
   };
   return (
     <div className="formTicket">
