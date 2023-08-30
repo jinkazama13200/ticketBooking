@@ -13,7 +13,7 @@ export default function SeatList({ data }) {
       <h1 style={{ textAlign: "center" }} className="screen">
         Screen
       </h1>
-      <table className="table">
+      <table className="text-center">
         <thead>
           <tr>
             <th></th>
